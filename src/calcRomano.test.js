@@ -8,4 +8,7 @@ describe('calcRomano', () => {
     it('should return II when recibes 2', () =>{
         expect(calcRomano(2)).toBe('II');
     })
+    it('should return 5 when recibes 5', () => {
+        expect(calcRomano(5)).toBe('V');
+    })
 });
