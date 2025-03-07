@@ -1,13 +1,19 @@
 export function calcRomano(numero) {
+    let romano = "";
     if (numero == 1){
         return "I";
     }
-    if (numero == 2){
-        return "II";
+    else if (numero == 4){
+        return "IV";
     }
-    if (numero == 5){
+    else if (numero == 5){
         return "V";
     }
+    // while (numero == 0 && numero < 4){
+    //     romano = romano + "I";
+    // }
+    // return romano;
+    
 };
 
 
