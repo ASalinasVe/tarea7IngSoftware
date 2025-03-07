@@ -20,5 +20,13 @@ describe('calcRomano', () => {
     it('should return XL when recibes 40', () => {
         expect(calcRomano(40)).toBe('XL');
     });
-
+    it('should return XL when recibes 40', () => {
+        expect(calcRomano(40)).toBe('XL');
+    });
+    it('should return CDXLIV when recibes 444', () => {
+        expect(calcRomano(444)).toBe('CDXLIV');
+    });
+    it('should return D when recibes 500', () => {
+        expect(calcRomano(500)).toBe('D');
+    });
 });

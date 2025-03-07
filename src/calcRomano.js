@@ -3,8 +3,8 @@ export function calcRomano(numero) {
     //500, 400, 100, 90, 50,
     //"D", "CD", "C", "XC", "L", 
 
-    let valores = [40, 10, 9, 5, 4, 1]
-    let romanos = ["XL", "X", "IX", "V", "IV", "I"];
+    let valores = [ 500, 400, 100, 90, 50,40, 10, 9, 5, 4, 1]
+    let romanos = ["D","CD", "C", "XC", "L","XL", "X", "IX", "V", "IV", "I"];
 ;
     // if (numero == 1){
     //     return "I";
@@ -23,7 +23,7 @@ export function calcRomano(numero) {
     // }
     
     let resultado = "";
-    
+
     for (let i = 0; i < valores.length; i++) {
 
         while(numero >= valores[i]){
