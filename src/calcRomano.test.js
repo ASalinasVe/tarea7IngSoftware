@@ -14,4 +14,7 @@ describe('calcRomano', () => {
     it('should return IX when recibes 9', () => {
         expect(calcRomano(9)).toBe('IX');
     });
+    it('should return X when recibes 10', () => {
+        expect(calcRomano(10)).toBe('X');
+    });
 });

@@ -12,6 +12,10 @@ export function calcRomano(numero) {
     else if (numero == 9){
         return "IX";
     }
+    else if (numero == 10){
+        return "X";
+    }
+    
     // while (numero == 0 && numero < 4){
     //     romano = romano + "I";
     // }
