@@ -9,6 +9,9 @@ export function calcRomano(numero) {
     else if (numero == 5){
         return "V";
     }
+    else if (numero == 9){
+        return "IX";
+    }
     // while (numero == 0 && numero < 4){
     //     romano = romano + "I";
     // }
